@@ -56,17 +56,25 @@ public class Student {
        return scoreSheet.toString();
     }
 
+    public void setNumberOfExamsTaken(){
+        int numOfExamsTaken= this.examScores.size();
+
+    }
+
     public int getNumberOfExamsTaken(){
+
         return this.examScores.size();
     }
 
 
-        public void addExamScore(double examScore){
-        examScores.add(examScore);
+        public void addExamScore(double testScore){
+
+        examScores.add(testScore);
         }
 
 
         public void setExamScore(int examNumber, double newScore){
+
         examScores.set(examNumber, newScore);
         }
 
@@ -80,7 +88,7 @@ public class Student {
         }
 
 
-        public String toString(){
+       public String toString(){
 
         StringBuilder fullScoreBoard = new StringBuilder();
         fullScoreBoard.append("Student Name: " + firstName + " "+lastName+"\n");

@@ -28,7 +28,7 @@ public class Classroom {
         return students;
     }
 
-  /*  public double getAverageExamScore() {
+   public double getAverageExamScore() {
 
 
         double sumOfScores = 0.0;
@@ -36,7 +36,7 @@ public class Classroom {
         for (Student student : students) {
                 sumOfScores += student.getAverageExamScore();
 
-        }*/
+        }
 
 
         /*for (int i = 0; i < students.length; i++) {
@@ -48,8 +48,8 @@ public class Classroom {
             }
         }*/
 
-     //   return sumOfScores;
-   // }*/
+        return sumOfScores;
+    }
 
     public void addStudent(Student student){
 
